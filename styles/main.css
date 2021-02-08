@@ -2,6 +2,8 @@ body {
     background-color: brown;
     margin: auto;
     max-width: 100%;
+    font-size: 1em;
+    font-family: 'Merriweather', serif;
     
 
 }
@@ -18,7 +20,7 @@ header {
 
 #name {
     float: left;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
 
 }
 
@@ -29,7 +31,7 @@ header a {
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.25em;
     
 
 }
@@ -40,11 +42,11 @@ header a {
 }
 
 h1 {
-    font-size: 50pt;
+    font-size: 4em;
 }
 
 p {
-    font-size: 20pt;
+    font-size: 1.5em;
 }
 
 .main {
