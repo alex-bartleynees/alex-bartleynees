@@ -1,6 +1,42 @@
 body {
-    background-color: #999;
+    background-color: brown;
+    margin: auto;
+    max-width: 100%;
+    
 
+}
+
+header {
+  
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border: 10px;
+   
+}
+
+#name {
+    float: left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+header a {
+    color: beige;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    
+
+}
+
+.main {
+    padding: 30px;
+    border: 100px;
 }
 
 h1 {
@@ -9,4 +45,9 @@ h1 {
 
 p {
     font-size: 20pt;
+}
+
+.main {
+    
+    
 }
