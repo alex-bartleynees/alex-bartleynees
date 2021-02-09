@@ -1,25 +1,29 @@
 body {
     background-color: brown;
-    margin: auto;
-    max-width: 100%;
     font-size: 1em;
+    text-align: center;
     font-family: 'Merriweather', serif;
+    color: beige;
     
+    
+
+
 
 }
 
 header {
-  
+    position:absolute;
     background-color: brown;
-    position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
     border: 10px;
-   
+
+
 }
 
 #name {
     float: left;
+
     
 
 }
@@ -27,7 +31,6 @@ header {
 header a {
     color: beige;
     float: right;
-    display: block;
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;
@@ -35,21 +38,29 @@ header a {
     
 
 }
-
-.main {
-    padding: 30px;
-    border: 100px;
-}
-
-h1 {
-    font-size: 4em;
-}
-
-p {
-    font-size: 1.5em;
-}
-
-.main {
+.main img {
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    bottom: 0;
+    left: 100px;
+    margin: auto;
     
-    
+}
+.main ul {
+    position: relative;
+    width: 50%;
+    top: 500px;
+    left: 500px;
+    list-style-type: none;
+    font-size: 2em;
+    margin: auto;
+   
+
+     
+
+}
+
+.main li {
+    margin: 50px;
 }
