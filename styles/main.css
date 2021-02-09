@@ -6,8 +6,6 @@ body {
     color: beige;
     width:100%;
     margin: auto;
-   
-
 }
 
 header {
@@ -15,8 +13,6 @@ header {
     background-color: brown;
     top: 0px;
     width: 99.5%;
-  
-
 }
 
 #name {
@@ -33,9 +29,12 @@ header a {
     padding: 20px 16px;
     text-decoration: none;
     font-size: 1.25em;
-
-    
 }
+
+.main {
+    clear:both;
+}
+
 .main img {
     position: absolute;
     top: 300px;
@@ -43,11 +42,9 @@ header a {
     bottom: 200px;
     left: 100px;
     max-width: 100%;
-    height: auto;
-    
-   
-
+    height:auto;
 }
+
 .main ul {
     position: relative;
     width: 50%;
@@ -55,16 +52,10 @@ header a {
     left: 500px;
     list-style-type: none;
     font-size: 2em;
-   
-
-
-     
-
 }
 
 .main li {
     margin: 50px;
-   
 }
 
 .quote {
@@ -73,14 +64,10 @@ header a {
     padding: 300px;
     background-color:beige;
     color: black;
-    
-
- 
 }
 
 .quote p {
     font-size: 1.5em;
-  
 }
 
 .quote span {
