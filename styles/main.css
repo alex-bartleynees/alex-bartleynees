@@ -4,8 +4,9 @@ body {
     text-align: center;
     font-family: 'Merriweather', serif;
     color: beige;
-    
-    margin: 0;
+    width:100%;
+    margin: auto;
+   
 
 }
 
@@ -39,9 +40,8 @@ header a {
     position: absolute;
     top: 300px;
     right: 200px;
-    bottom: 20rem;
+    bottom: 200px;
     left: 100px;
-    height: 50rem;
     margin: auto;
    
 
@@ -71,10 +71,14 @@ header a {
     padding: 300px;
     background-color:beige;
     color: black;
+    
+
+ 
 }
 
 .quote p {
     font-size: 1.5em;
+  
 }
 
 .quote span {
