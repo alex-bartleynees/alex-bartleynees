@@ -1,13 +1,11 @@
 body {
-    background-color: brown;
+    background-color: brown; 
     font-size: 1em;
     text-align: center;
     font-family: 'Merriweather', serif;
     color: beige;
     
-    
-
-
+    margin: 0;
 
 }
 
@@ -15,9 +13,8 @@ header {
     position:absolute;
     background-color: brown;
     top: 0px;
-    width: 100%;
-    border: 10px;
-
+    width: 99.5%;
+  
 
 }
 
@@ -35,8 +32,8 @@ header a {
     padding: 20px 16px;
     text-decoration: none;
     font-size: 1.25em;
-    
 
+    
 }
 .main img {
     position: absolute;
@@ -45,7 +42,8 @@ header a {
     bottom: 0;
     left: 100px;
     margin: auto;
-    
+   
+
 }
 .main ul {
     position: relative;
@@ -55,7 +53,7 @@ header a {
     list-style-type: none;
     font-size: 2em;
     margin: auto;
-   
+  ;
 
      
 
@@ -63,4 +61,21 @@ header a {
 
 .main li {
     margin: 50px;
+   
+}
+
+.quote {
+    position:relative;
+    top: 1000px;
+    padding: 300px;
+    background-color:beige;
+    color: black;
+}
+
+.quote p {
+    font-size: 1.5em;
+}
+
+.quote span {
+    font-style: italic;
 }
