@@ -17,9 +17,6 @@ header {
 
 #name {
     float: left;
-
-    
-    
 }
 
 header a {
@@ -177,5 +174,49 @@ footer {
 
 .heading {
     position:relative;
+    top: 30px;
+}
+
+.wrapper {
+    background-color: beige;
+    color: black;
+    position: absolute;
+    min-height: 100%;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    overflow: auto;
+}
+
+.title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 50px;
+    text-decoration: underline;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 40px;
+}
+
+.content img {
+    width: 400px;
+    align-self: center;
+}
+
+.paragraphs {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+
+.heading h1 {
+
+    position: relative;
     top: 30px;
 }
