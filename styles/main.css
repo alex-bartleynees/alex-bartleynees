@@ -127,12 +127,6 @@ footer {
     
 }
 
-.learningplan p {
-    letter-spacing: 1px;
-
-}
-
-
 .values {
     width:60%;
     height: auto;
@@ -145,10 +139,6 @@ footer {
     position:relative;
     top: 50px;
 
-}
-
-.values p {
-    letter-spacing: 1px;
 }
 
 .heading {
