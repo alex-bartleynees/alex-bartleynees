@@ -1,5 +1,5 @@
 body {
-    background-color: brown; 
+    background-color: #8F3016; 
     font-size: 1em;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -10,7 +10,7 @@ body {
 
 header {
     position:absolute;
-    background-color: brown;
+    background-color: #8F3016;
     top: 0px;
     width: 100%;
 }
