@@ -120,6 +120,16 @@ footer {
     display: flex;
     flex-direction: column;
     margin: 30px auto;
+}
+
+.blog3 {
+    width: 60%;
+    height: 700px;
+    background-color: beige;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
 
 }
 
@@ -144,3 +154,19 @@ footer {
 
 }
 
+
+.values {
+    width:60%;
+    height: 3000px;
+    margin: auto;
+    background-color:beige;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.values p {
+    letter-spacing: 1px;
+}
