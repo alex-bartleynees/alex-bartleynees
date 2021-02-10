@@ -81,7 +81,7 @@ footer {
     text-align: center;
 }
 
-.blog1 {
+.blog {
     width: 60%;
     height: 700px;
     background-color: beige;
@@ -107,27 +107,6 @@ footer {
 .blogname a {
     text-decoration: none;
     color: black;
-}
-
-.blog2 {
-    width: 60%;
-    height: 700px;
-    background-color: beige;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    margin: 30px auto;
-}
-
-.blog3 {
-    width: 60%;
-    height: 700px;
-    background-color: beige;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    margin: 30px auto;
-
 }
 
 .container span {
@@ -211,12 +190,15 @@ footer {
 
 .paragraphs {
     display: flex;
-    flex-direction:row;
-    justify-content: center;
+    flex-direction:column;
+    
 }
+
+
 
 .heading h1 {
 
     position: relative;
     top: 30px;
 }
+
