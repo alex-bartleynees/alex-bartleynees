@@ -129,14 +129,14 @@ footer {
 
 .learningplan {
     width:60%;
-    height: 700px;
+    height: 1000px;
     margin: auto;
     background-color:beige;
     color: black;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-around;
+    
 }
 
 .learningplan p {
