@@ -157,16 +157,23 @@ footer {
 
 .values {
     width:60%;
-    height: 3000px;
+    height: auto;
     margin: auto;
     background-color:beige;
     color: black;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    position:relative;
+    top: 50px;
 
 }
 
 .values p {
     letter-spacing: 1px;
+}
+
+.heading {
+    position:relative;
+    top: 30px;
 }
