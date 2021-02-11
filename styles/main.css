@@ -24,10 +24,6 @@ header a {
     font-size: 1.25em;
 }
 
-.main {
-    clear:both;
-}
-
 .main img {
     position: absolute;
     top: 300px;
