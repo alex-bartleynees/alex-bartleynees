@@ -8,21 +8,17 @@ body {
     margin: auto;
 }
 
-header {
-    position:absolute;
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     background-color: #8F3016;
-    top: 0px;
-    width: 100%;
-}
-
-#name {
-    float: left;
+   
 }
 
 header a {
     color: beige;
-    float: right;
-    text-align: center;
     padding: 20px 16px;
     text-decoration: none;
     font-size: 1.25em;
