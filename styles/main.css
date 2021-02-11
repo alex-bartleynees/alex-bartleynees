@@ -28,45 +28,6 @@ header a {
     font-size: 1.25em;
 }
 
-/*.main img {
-    position: absolute;
-    top: 300px;
-    right: 200px;
-    bottom: 200px;
-    left: 100px;
-    max-width: 100%;
-    height:auto;
-}
-
-.main ul {
-    position: relative;
-    width: 50%;
-    top: 500px;
-    left: 500px;
-    list-style-type: none;
-    font-size: 2em;
-}
-
-.main li {
-    margin: 50px;
-} 
-
-.quote {
-    position:relative;
-    top: 1000px;
-    padding: 300px;
-    background-color:beige;
-    color: black;
-}
-
-.quote p {
-    font-size: 1.5em;
-}
-
-.quote span {
-    font-style: italic;
-} */
-
 .main {
     display: flex;
     justify-content: center;
@@ -121,16 +82,6 @@ header a {
     font-style: italic;
 
 }
-
-/*footer {
-    position:absolute;
-    top: 2050px;
-    bottom: 0px;
-    color: black;
-    width: 100%;
-    padding: 0;
-    text-align: center;
-} */
 
 .spacer{
     height: 500px;
@@ -259,6 +210,7 @@ header a {
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+      
 }
 
 #myPic{
