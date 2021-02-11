@@ -6,6 +6,9 @@ body {
     color: beige;
     width:100%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 header nav {
@@ -24,7 +27,7 @@ header a {
     font-size: 1.25em;
 }
 
-.main img {
+/*.main img {
     position: absolute;
     top: 300px;
     right: 200px;
@@ -45,7 +48,7 @@ header a {
 
 .main li {
     margin: 50px;
-}
+} 
 
 .quote {
     position:relative;
@@ -61,9 +64,64 @@ header a {
 
 .quote span {
     font-style: italic;
+} */
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 100%;
+    
+
 }
 
-footer {
+.image {
+    position: relative;
+    top: 200px;
+    max-width: 100%;
+    min-width: 300px;
+    height: auto;
+   
+}
+
+.image img {
+    width: 400px;
+}
+
+.list ul li {
+    position: relative;
+    top: 200px;
+    width: 50%;
+    list-style-type: none;
+    font-size: 2em;
+    margin: 50px;
+
+
+}
+
+.quote {
+    position:relative;
+    top: 600px;
+    width: 100%;
+    padding: 400px;
+    background-color:beige;
+    color: black;
+ 
+   
+    
+}
+
+.quote p {
+    font-size: 1.5em;
+}
+
+.quote span {
+    font-style: italic;
+
+}
+
+/*footer {
     position:absolute;
     top: 2050px;
     bottom: 0px;
@@ -71,6 +129,18 @@ footer {
     width: 100%;
     padding: 0;
     text-align: center;
+} */
+
+.spacer{
+    height: 550px;
+   
+}
+
+.footer {
+   margin-top: auto;
+   color: black;
+   z-index: 1;
+   
 }
 
 .blog {
@@ -142,6 +212,7 @@ footer {
     background-color: beige;
     color: black;
     position: absolute;
+    height: 100%;
     min-height: 100%;
     top:0;
     bottom:0;
@@ -175,8 +246,6 @@ footer {
     flex-direction:column;
     
 }
-
-
 
 .heading h1 {
 
