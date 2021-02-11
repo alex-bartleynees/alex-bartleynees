@@ -1,3 +1,4 @@
+
 body {
     background-color: #8F3016; 
     font-size: 1em;
@@ -132,7 +133,7 @@ header a {
 } */
 
 .spacer{
-    height: 550px;
+    height: 500px;
    
 }
 
@@ -171,7 +172,7 @@ header a {
     color: black;
 }
 
-.container span {
+.blog span {
     font-style: italic;
 }
 
@@ -253,3 +254,19 @@ header a {
     top: 30px;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#myPic{
+    border-radius: 50%;
+}
+
+.aboutme  {
+    position: relative;
+    top: 300px;
+
+}
