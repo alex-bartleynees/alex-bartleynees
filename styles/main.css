@@ -175,3 +175,12 @@ header a {
     top: 300px;
 
 }
+
+.bottom {
+    position: relative;
+    bottom: 100px;
+}
+
+#function {
+    margin-bottom: 40px;
+}
