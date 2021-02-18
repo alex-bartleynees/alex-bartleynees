@@ -70,8 +70,6 @@ header a {
     background-color:beige;
     color: black;
  
-   
-    
 }
 
 .quote p {
@@ -105,8 +103,6 @@ header a {
     margin: 30px auto;
 }
 
-
-
 .blogname {
     height: 100%;
     width: 100%;
@@ -125,39 +121,6 @@ header a {
 
 .blog span {
     font-style: italic;
-}
-
-.learningplan {
-    width:60%;
-    height: auto;
-    margin: auto;
-    background-color:beige;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    position: relative;
-    top: 50px;
-    
-}
-
-.values {
-    width:60%;
-    height: auto;
-    margin: auto;
-    background-color:beige;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    position:relative;
-    top: 50px;
-
-}
-
-.heading {
-    position:relative;
-    top: 30px;
 }
 
 .wrapper {
@@ -184,6 +147,8 @@ header a {
 .content {
     display: flex;
     flex-direction: column;
+    width: 60%;
+    align-items: center;
     position: relative;
     top: 40px;
 }
@@ -191,18 +156,6 @@ header a {
 .content img {
     width: 400px;
     align-self: center;
-}
-
-.paragraphs {
-    display: flex;
-    flex-direction:column;
-    
-}
-
-.heading h1 {
-
-    position: relative;
-    top: 30px;
 }
 
 .container {
